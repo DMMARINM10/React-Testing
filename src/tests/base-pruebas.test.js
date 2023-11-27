@@ -5,11 +5,11 @@ import { getHeroeById, getHeroesByOwner } from "../base-pruebas/08-imp-exp";
 import { getHeroeByIdAsync } from "../base-pruebas/09-promesas";
 import { getImagen } from "../base-pruebas/11-async-await";
 // test("Test", () => {
-//   // 1. Initialization
+//   // 1. Initialization - Arrange
 //   const message1 = "Hola Mundo";
-//   // 2. Stimulation
+//   // 2. Stimulation - Act
 //   const message2 = "Hola Mundo";
-//   // 3. Expected behaviour
+//   // 3. Expected behaviour - Assert
 //   expect(message1).toBe(message2);
 // });
 
