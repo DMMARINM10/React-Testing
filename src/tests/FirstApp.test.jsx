@@ -20,7 +20,7 @@ describe('Tests on FirstApp component', () => {
         const h1 = container.querySelector('h1')
         expect(h1.innerHTML).toContain(title)
 
-        //screen es el objecto que recibo del render
+        //screen es el objecto que recibo del render dentro del body
         //renderizado del comp actualizado luego de cambios en el DOM
         expect(screen.getByRole('heading', { level: 1 } ).innerHTML).toContain(title)
 
